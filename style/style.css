@@ -1,0 +1,91 @@
+body {
+  background-color: #121725;
+  margin: 0px;
+  font-family: "Chivo", sans-serif;
+  max-width: 100%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 100px 0px 100px 150px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.pod-logo img {
+  padding-right: 310px;
+}
+
+.dots-img {
+  position: absolute;
+  bottom: 18%;
+}
+
+.address-part {
+  background-color: #121725;
+  display: flex;
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  bottom: 23.6%;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.header {
+  font-size: 52px;
+  color: #54e6af;
+}
+
+.header span {
+  font-size: 52px;
+  color: #ffffff;
+}
+
+.text {
+  padding: 30px 355px 30px 0px;
+  color: #c2cbe5;
+  font-size: 18px;
+}
+
+.input-part {
+  width: 370px;
+}
+
+.input-part input {
+  width: 90%;
+  background-color: #2c344b;
+  padding: 18px 13px 18px 18px;
+  border-radius: 30px;
+  color: #ffffff;
+  border-style: none;
+  font-weight: bold;
+  outline: none;
+  overflow: hidden;
+}
+
+.input-part button {
+  padding: 15px;
+  background-color: #54e6af;
+  color: #121725;
+  border-radius: 30px;
+  border-style: none;
+  font-weight: bold;
+  margin-left: -139px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.error {
+  font-size: 12px;
+  color: #fb3e3e;
+  padding: 4px 0px 50px 15px;
+}
+
+.logo-part img {
+  padding-right: 35px;
+}
