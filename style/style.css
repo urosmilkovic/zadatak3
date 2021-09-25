@@ -5,35 +5,36 @@ body {
   max-width: 100%;
 }
 
-.main-container {
-  display: flex;
-  justify-content: flex-end;
-  margin: 100px 0px 100px 150px;
-}
-
-.main-content {
-  display: flex;
-}
-
-.pod-logo img {
-  padding-right: 310px;
-}
-
-.dots-img {
+.pod-logo {
   position: absolute;
-  bottom: 18%;
+  top: 5%;
+  left: 10%;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.singer-pic {
+  background-image: url("/assets/desktop/image-host.jpg");
+  background-size: cover;
+  width: 60%;
+  height: 79vh;
 }
 
 .address-part {
   background-color: #121725;
+  margin-left: 8%;
   display: flex;
   position: absolute;
-  width: 800px;
-  height: 400px;
-  bottom: 23.6%;
+  width: 50%;
+  bottom: 10%;
   flex-direction: column;
-  align-content: center;
-  align-items: flex-start;
+  padding: 30px;
 }
 
 .header {
@@ -47,9 +48,10 @@ body {
 }
 
 .text {
-  padding: 30px 355px 30px 0px;
+  padding: 30px 276px 30px 0px;
   color: #c2cbe5;
   font-size: 18px;
+  line-height: 27px;
 }
 
 .input-part {
@@ -65,7 +67,7 @@ body {
   border-style: none;
   font-weight: bold;
   outline: none;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .input-part button {
@@ -80,6 +82,10 @@ body {
   overflow: hidden;
 }
 
+button:hover {
+  background-color: #b3ffe2;
+}
+
 .error {
   font-size: 12px;
   color: #fb3e3e;
@@ -88,4 +94,10 @@ body {
 
 .logo-part img {
   padding-right: 35px;
+}
+
+.dots-img {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
 }
