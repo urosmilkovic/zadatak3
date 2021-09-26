@@ -183,4 +183,115 @@ button:hover {
 }
 
 @media (max-width: 385px) {
+  .singer-pic {
+    background-image: url("/assets/mobile/image-host.jpg");
+    width: 100%;
+    height: 100%;
+  }
+
+  .dots-img {
+    display: none;
+  }
+
+  .pod-logo {
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    z-index: 1;
+  }
+
+  .main-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .address-part {
+    background-color: #121725;
+    display: flex;
+    margin-left: 0%;
+    position: absolute;
+    width: 84%;
+    height: 57%;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    bottom: 0%;
+    padding: 179px 30px 170px 30px;
+  }
+
+  .header {
+    font-size: 22px;
+    color: #54e6af;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .header span {
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .text {
+    text-align: center;
+    padding: 35px 20px 60px 20px;
+    color: #c2cbe5;
+    font-size: 11px;
+    line-height: 23px;
+  }
+
+  .input-part {
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .input-part input {
+    width: 90%;
+    background-color: #2c344b;
+    padding: 18px 13px 18px 18px;
+    border-radius: 30px;
+    color: #ffffff;
+    border-style: none;
+    font-weight: bold;
+    outline: none;
+  }
+
+  .input-part button {
+    width: 100%;
+    padding: 15px;
+    background-color: #54e6af;
+    color: #121725;
+    border-radius: 30px;
+    border-style: none;
+    font-weight: bold;
+    margin: 10px 0px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .logo-part {
+    width: 86%;
+    position: absolute;
+    bottom: 52%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+    opacity: 0.6;
+  }
+
+  .logo-part img {
+    width: 66px;
+    height: 14px;
+  }
+
+  .dots-img {
+    display: none;
+  }
 }
