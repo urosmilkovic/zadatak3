@@ -33,6 +33,7 @@ body {
   position: absolute;
   width: 50%;
   bottom: 10%;
+  height: 420px;
   flex-direction: column;
   padding: 30px;
 }
@@ -40,11 +41,15 @@ body {
 .header {
   font-size: 52px;
   color: #54e6af;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 .header span {
   font-size: 52px;
   color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 .text {
@@ -86,7 +91,12 @@ button:hover {
   background-color: #b3ffe2;
 }
 
+.logo-part {
+  position: absolute;
+  bottom: 10%;
+}
 .error {
+  display: ;
   font-size: 12px;
   color: #fb3e3e;
   padding: 4px 0px 50px 15px;
@@ -100,4 +110,77 @@ button:hover {
   position: absolute;
   bottom: 5%;
   right: 0;
+}
+
+@media (max-width: 1165px) {
+  .singer-pic {
+    background-image: url("/assets/tablet/image-host.jpg");
+    background-size: cover;
+    width: 60%;
+    height: 79vh;
+  }
+
+  .main-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 79vh;
+  }
+
+  .address-part {
+    background-color: #121725;
+    margin-left: 3%;
+    display: flex;
+    position: absolute;
+    width: 73%;
+    bottom: 10%;
+    height: 578px;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .pod-logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .input-part {
+    width: 478px;
+  }
+
+  .header {
+    font-size: 64px;
+    color: #54e6af;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .header span {
+    font-size: 64px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .text {
+    padding: 30px 276px 60px 0px;
+    color: #c2cbe5;
+    font-size: 23px;
+    line-height: 27px;
+  }
+
+  .logo-part {
+    position: absolute;
+    bottom: 19%;
+  }
+
+  .dots-img {
+    position: absolute;
+    bottom: -1%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 385px) {
 }
