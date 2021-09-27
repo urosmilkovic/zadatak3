@@ -120,7 +120,7 @@ button:hover {
   right: 0;
 }
 
-@media (max-width: 1165px) {
+@media (max-width: 1165px) and (min-width: 1000px) {
   .singer-pic {
     background-image: url("/assets/tablet/image-host.jpg");
     background-size: cover;
@@ -217,17 +217,16 @@ button:hover {
   .address-part {
     background-color: #121725;
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     flex-direction: column;
     position: absolute;
-    bottom: 0%;
-    margin: 0%;
+    bottom: 0px;
+    margin: 0px;
     opacity: 0.9;
     padding: 0px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
   }
 
   .dots-img {
@@ -295,7 +294,7 @@ button:hover {
 
   .logo-pod {
     display: block;
-    padding: 60px;
+    margin: 60px;
   }
 
   .logo-part {
