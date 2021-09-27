@@ -199,6 +199,10 @@ button:hover {
 }
 
 @media (max-width: 385px) {
+  .body {
+    height: 100vh;
+  }
+
   .main-container {
     width: 100%;
     height: 100vh;
