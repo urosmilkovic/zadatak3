@@ -11,6 +11,10 @@ body {
   left: 10%;
 }
 
+.logos {
+  display: none;
+}
+
 .logo-pod {
   display: none;
 }
@@ -124,6 +128,10 @@ button:hover {
     height: 79vh;
   }
 
+  .logos {
+    display: none;
+  }
+
   .logo-pod {
     display: none;
   }
@@ -196,6 +204,7 @@ button:hover {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: normal;
   }
 
   .singer-pic {
@@ -219,10 +228,6 @@ button:hover {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  }
-
-  .logo-part {
-    display: none;
   }
 
   .dots-img {
@@ -290,6 +295,23 @@ button:hover {
 
   .logo-pod {
     display: block;
-    padding: 60px;
+    padding: 0px 0px 60px 0px;
+  }
+
+  .logo-part {
+    display: none;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .logos img {
+    width: 73px;
+    height: 16px;
+    padding-right: 10px;
   }
 }
