@@ -40,7 +40,7 @@ body {
   display: flex;
   position: absolute;
   width: 50%;
-  bottom: 10%;
+  /* bottom: 10%; */
   height: 420px;
   flex-direction: column;
   padding: 30px;
