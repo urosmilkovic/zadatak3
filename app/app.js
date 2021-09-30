@@ -1,11 +1,15 @@
-$(document).ready(function () {
-    $('.button-req').click(function() {
-        $('.error').text("Oops! Please check your email");
+var validation;
+$(document).ready(function() {
+    $('.button-req').click(function() { 
+    validation = $('.valid').val();
+        if(validation === "") {
+            $('.error').addClass('error-fix');
+            $('.error-fix').removeClass('error');
+        }
+        else {
+            $('.valid').text(validation);
+            $('.error-fix').addClass('error');
+            $('.error').removeClass('error-fix');
+        }
     });
 });
-
-// $(document).ready(function () {
-//     $('.button-req').click(function() {
-//         $('.error').toggleClass("fix-error");
-//     });
-// });
